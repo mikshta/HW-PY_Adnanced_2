@@ -53,6 +53,8 @@ for i in range(1, len(short_list)-1):
     short_list[i][5] = re.sub(pattern2, repl2, short_list[i][5])
 
 pprint(short_list)
+for i in short_list:
+  print(len(i))
 
 
 # TODO 2: сохраните получившиеся данные в другой файл
